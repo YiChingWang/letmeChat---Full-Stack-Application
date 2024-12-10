@@ -1,0 +1,154 @@
+.createchat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 680px;
+}
+.createchat-content {
+  flex: none;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border-radius: 20px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+
+  background-color: white;
+}
+.creatchat-leftside {
+  background-color: rgb(70, 70, 246);
+  grid-column: 1/2;
+
+  padding: 30px;
+
+  border-radius: 20px 0 0 20px;
+}
+.creatchat-logo {
+  font-size: 25px;
+  font-weight: bold;
+
+  color: white;
+}
+.creatchat-rightside {
+  grid-column: 2/4;
+  padding: 30px;
+}
+.creatchat-title {
+  grid-column: span 2;
+  color: rgb(70, 70, 246);
+
+  font-size: 40px;
+
+  padding-bottom: 10px;
+}
+.creatchat-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  row-gap: 20px;
+}
+.creatchat-form-username {
+  grid-column: span 2;
+
+  color: rgb(159, 159, 159);
+}
+.creatchat-form-username-label {
+  padding-right: 5px;
+}
+.creatchat-form-time {
+  grid-column: span 2;
+
+  color: rgb(159, 159, 159);
+}
+.creatchat-form-time-label {
+  padding-right: 5px;
+}
+.creatchat-form-button-createchat {
+  grid-column: span 1;
+
+  padding: 15px;
+  margin-top: 30px;
+
+  border: 2px solid rgb(70, 70, 246);
+  border-radius: 30px;
+
+  background-color: white;
+  color: rgb(70, 70, 246);
+}
+.creatchat-form-button-createchat:hover {
+  background-color: rgb(70, 70, 246);
+  color: white;
+}
+.creatchat-form-button-backtomain {
+  grid-column: span 1;
+
+  padding: 15px;
+  margin-top: 30px;
+
+  border-radius: 30px;
+
+  background-color: rgb(70, 70, 246);
+  color: white;
+}
+.creatchat-form-button-backtomain:hover {
+  border: 2px solid rgb(70, 70, 246);
+
+  color: rgb(70, 70, 246);
+  background-color: white;
+}
+.creatchat-form-errormessage {
+  grid-column: span 2;
+
+  font-weight: bold;
+
+  color: orange;
+}
+@media (max-width: 70rem) {
+  .createchat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+  }
+  .createchat-content {
+    flex: none;
+    width: 70%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .creatchat-leftside {
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+    border-radius: 20px 20px 0 0;
+  }
+  .creatchat-rightside {
+    grid-row: 2/6;
+    grid-column: 1/4;
+  }
+  .creatchat-title {
+    grid-column: span 2;
+    justify-self: center;
+
+    font-size: 30px;
+  }
+  .creatchat-form-username {
+    text-align: center;
+  }
+  .creatchat-form-username-input {
+    width: 200px;
+  }
+  .creatchat-form-time {
+    text-align: center;
+  }
+  .creatchat-form-button-createchat {
+    grid-column: span 2;
+    margin-top: 10px;
+  }
+  .creatchat-form-button-backtomain {
+    grid-column: span 2;
+    margin-top: 0;
+  }
+}

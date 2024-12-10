@@ -1,0 +1,154 @@
+.howtowork {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px 250px;
+}
+.howtowork-title {
+  padding: 50px 0 10px 0;
+}
+.howtowork-title-content {
+  text-align: center;
+
+  padding: 10px;
+
+  color: rgb(70, 70, 246);
+}
+.howtowork-section {
+  grid-row: span 5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  align-items: center;
+
+  padding: 10px 20px 20px 20px;
+
+  border-radius: 30px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+
+  background-color: white;
+}
+.howtowork-section-rightside-title {
+  grid-column: span 2;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+
+  padding: 10px 0;
+
+  color: rgb(70, 70, 246);
+}
+.howtowork-section-rightside-img {
+  grid-column: span 1;
+  justify-self: left;
+
+  width: 400px;
+  height: 300px;
+
+  border-radius: 30px;
+  border: 1px solid rgb(70, 70, 246);
+}
+.howtowork-section-rightside,
+.howtowork-section3-rightside {
+  grid-column: span 1;
+  align-self: center;
+
+  line-height: 1.6;
+
+  color: gray;
+  padding-right: 20px;
+}
+.howtowork-section4 {
+  grid-row: span 5;
+  text-align: center;
+
+  padding: 30px;
+
+  color: rgb(70, 70, 246);
+}
+.howtowork-button {
+  grid-row: span 1;
+  justify-self: center;
+
+  padding: 15px 50px;
+  margin-bottom: 30px;
+
+  border-radius: 30px;
+
+  background-color: rgb(70, 70, 246);
+  color: white;
+}
+.howtowork-button:hover {
+  border: 2px solid rgb(70, 70, 246);
+
+  font-weight: bold;
+
+  color: rgb(70, 70, 246);
+  background-color: white;
+}
+.howtowork-point {
+  font-weight: bold;
+}
+.howtowork-section3-rightside-content {
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+.howtowork-section3-rightside-button {
+  padding: 20px;
+  margin-bottom: 10px;
+
+  border-radius: 30px;
+
+  background-color: aliceblue;
+  color: rgb(70, 70, 246);
+}
+@media (max-width: 85rem) {
+  .howtowork-section-rightside-img {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (max-width: 75rem) {
+  .howtowork-section-rightside-img {
+    width: 250px;
+    height: 150px;
+  }
+}
+@media (max-width: 65rem) {
+  .howtowork {
+    padding: 30px;
+  }
+  .howtowork-title {
+    padding: 30px;
+
+    font-size: 15px;
+  }
+  .howtowork-section {
+    padding: 20px;
+  }
+  .howtowork-section-rightside-img {
+    grid-column: span 2;
+    justify-self: center;
+    align-self: center;
+
+    width: 250px;
+    height: 150px;
+  }
+  .howtowork-section-rightside {
+    grid-column: span 2;
+    text-align: center;
+
+    padding: 0 30px;
+  }
+  .howtowork-section3-rightside {
+    grid-column: span 2;
+    padding-right: 0;
+  }
+  .howtowork-button {
+    grid-row: span 2;
+  }
+}

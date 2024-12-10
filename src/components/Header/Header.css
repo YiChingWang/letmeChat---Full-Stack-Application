@@ -1,0 +1,73 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  justify-items: center;
+
+  height: 50px;
+}
+.header-logo {
+  grid-column: 1/3;
+  justify-self: start;
+
+  padding-left: 20px;
+
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  color: rgb(70, 70, 246);
+}
+.header-nav-button-about {
+  grid-column: 11/12;
+  justify-self: right;
+
+  background-color: transparent;
+  color: rgb(70, 70, 246);
+}
+.header-nav-button-about:hover {
+  font-weight: bold;
+}
+.header-nav-button-howtowork {
+  grid-column: 12/13;
+
+  padding: 0;
+
+  background-color: transparent;
+  color: rgb(70, 70, 246);
+}
+.header-nav-button-howtowork:hover {
+  font-weight: bold;
+}
+@media (max-width: 100rem) {
+  .header-nav-button-about {
+    grid-column: 11/12;
+  }
+  .header-nav-button-howtowork {
+    grid-column: 12/13;
+  }
+}
+@media (max-width: 80rem) {
+  .header-nav-button-about {
+    grid-column: 10/11;
+  }
+  .header-nav-button-howtowork {
+    grid-column: 11/13;
+  }
+}
+@media (max-width: 40rem) {
+  .header-nav-button-about {
+    grid-column: 9/10;
+  }
+  .header-nav-button-howtowork {
+    grid-column: 10/13;
+  }
+}
+@media (max-width: 30rem) {
+  .header-nav-button-about {
+    grid-column: 8/9;
+  }
+  .header-nav-button-howtowork {
+    grid-column: 9/13;
+    padding-right: 10px;
+  }
+}
