@@ -107,6 +107,8 @@ LetmeChat addresses the common problem of inactive group chats that remain after
    ```bash
    npm start
    ```
+   Your site will be available at http://localhost:3000 (or another port specified in your configuration).
+
 6. **Access the Live Application:**
    
    You can also directly open the application here:
@@ -115,7 +117,6 @@ LetmeChat addresses the common problem of inactive group chats that remain after
    https://letme-chat-full-stack-application.vercel.app/
    ```
 
-Your site will be available at http://localhost:3000 (or another port specified in your configuration).
 
 ## 🧑‍💻 Contributor
 
