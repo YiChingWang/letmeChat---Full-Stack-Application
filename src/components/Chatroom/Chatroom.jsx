@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./chatroom.css";
+import "./Chatroom.css";
 import {
   leaveGroup,
   cancelGroup,
