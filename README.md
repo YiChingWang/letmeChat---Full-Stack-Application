@@ -81,13 +81,13 @@ LetmeChat addresses the common problem of inactive group chats that remain after
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/letmechat.git
+   git clone git@github.com:YiChingWang/letmeChat---Full-Stack-Application.git
    ```
 
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd final
+   cd letmeChat
    ```
 
 3. **Install Dependencies:**
