@@ -87,7 +87,7 @@ LetmeChat addresses the common problem of inactive group chats that remain after
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd letmeChat
+   cd letmeChat---Full-Stack-Application
    ```
 
 3. **Install Dependencies:**
