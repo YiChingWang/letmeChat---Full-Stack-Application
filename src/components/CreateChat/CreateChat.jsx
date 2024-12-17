@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Chatroom from "../Chatroom/Chatroom";
 import { createChat } from "../../services";
-import "./createchat.css";
+import "./CreateChat.css";
 
 function CreateChat({ onBackToMain }) {
   const [username, setUsername] = useState("");
