@@ -112,12 +112,9 @@ LetmeChat addresses the common problem of inactive group chats that remain after
 6. **Access the Live Application:**
    
    You can also directly open the application here:
-   
-   ```bash
-   https://letme-chat-full-stack-application.vercel.app/
-   ```
 
-
+   [https://letme-chat-full-stack-application.vercel.app/](https://letme-chat-full-stack-application.vercel.app/)
+ 
 ## 🧑‍💻 Contributor
 
 - Name: Yi Ching Wang
