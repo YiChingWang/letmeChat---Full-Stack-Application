@@ -108,7 +108,8 @@ LetmeChat addresses the common problem of inactive group chats that remain after
    npm start
    ```
 6. **Access the Live Application:**
-   - You can also directly open the application here:
+   
+   You can also directly open the application here:
    
    ```bash
    https://letme-chat-full-stack-application.vercel.app/
