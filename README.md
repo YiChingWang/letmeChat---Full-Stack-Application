@@ -105,7 +105,7 @@ LetmeChat addresses the common problem of inactive group chats that remain after
 5. **Start the Application:**
 
    ```bash
-   npm start
+   npm run start
    ```
    Your site will be available at http://localhost:3000 (or another port specified in your configuration).
  
